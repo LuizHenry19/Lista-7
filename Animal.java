@@ -1,5 +1,4 @@
-public class Animal
-{  public void mover()
-   {  System.out.println("O animal esta se movendo.");
-   }
-}   
+public interface Animal 
+{  public void fazerSom();
+   public void mover();
+}

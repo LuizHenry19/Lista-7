@@ -1,5 +1,9 @@
-public class Cachorro extends Animal
-{  public void latir()
-   {  System.out.println("Au, au!");
+public class Cachorro implements Animal
+{  public void fazerSom() 
+   {  System.out.println("AU au!"); 
    }
-}   
+   
+   public void mover() 
+   {  System.out.println("O cachorro está correndo."); 
+   }
+}
