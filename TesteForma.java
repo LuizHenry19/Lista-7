@@ -1,4 +1,4 @@
-public class Teste
+public class TesteForma
 {  public static void main(String[] args)
    {  Circulo circulo = new Circulo(2);
       Retangulo retangulo = new Retangulo(6 , 5);
